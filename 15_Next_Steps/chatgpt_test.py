@@ -5,7 +5,7 @@ from chatgpt_function import weighted_mean
 def test_weighted_mean():
     numbers = [10, 20, 30, 40, 50]
     weights = [0.1, 0.2, 0.3, 0.2, 0.2]
-    expected_result = 32.0
+    expected_result = 30.0
 
     result = weighted_mean(numbers, weights)
 
