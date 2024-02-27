@@ -1,7 +1,9 @@
 black==24.2.0
+faker==23.2.1
 line-profiler==4.1.2
 matplotlib==3.8.3
 numpy==1.26.4
+openpyxl==3.1.2
 pandas==2.2.1
 pytest==8.0.2
 snakeviz==2.2.0
