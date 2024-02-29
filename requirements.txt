@@ -1,11 +1,16 @@
 black==24.2.0
 dask==2024.2.1
 faker==23.2.1
+fastapi==0.110.0
 line-profiler==4.1.2
 matplotlib==3.8.3
+memray==1.11.0
 numpy==1.26.4
 openpyxl==3.1.2
 pandas==2.2.1
+pandera==0.18.0
+pydantic==2.6.3
 pytest==8.0.2
+scikit-learn==1.4.1
 scipy==1.12.0
 snakeviz==2.2.0
