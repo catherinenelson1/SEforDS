@@ -3,7 +3,7 @@ def weighted_mean(num_list, weights):
         return None
     running_total = 0
     for i in range(len(num_list)):
-        running_total += num_list[i] * weights[0]
+        running_total += num_list[i] * weights[i]
     return running_total / sum(weights)
 
 
@@ -18,20 +18,10 @@ def fit_trendline(year_timestamps, data):
     return slope, r_squared
 
 
-def process_sdg_data(excel_file):
+def process_sdg_data(excel_file, columns_to_drop):
     df = pd.read_excel(excel_file)
     df = df.drop(
-        [
-            "Goal",
-            "Target",
-            "Indicator",
-            "SeriesCode",
-            "SeriesDescription",
-            "GeoAreaCode",
-            "Reporting Type",
-            "Sex",
-            "Units",
-        ],
+        columns_to_drop,
         axis=1,
     )
     df = df.set_index("GeoAreaName").transpose()
