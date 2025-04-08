@@ -1,5 +1,5 @@
 black==24.3.0
-dask==2024.2.1
+dask==2025.3.0
 faker==23.2.1
 fastapi==0.110.0
 line-profiler==4.1.2
