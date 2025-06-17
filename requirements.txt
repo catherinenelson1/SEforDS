@@ -10,7 +10,7 @@ openpyxl==3.1.2
 pandas==2.2.1
 pandera==0.18.0
 pydantic==2.6.3
-pytest==8.0.2
+pytest==8.4.0
 requests==2.32.4
 scikit-learn==1.5.0
 scipy==1.12.0
