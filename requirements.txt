@@ -2,7 +2,7 @@ black==24.3.0
 dask==2025.3.0
 faker==23.2.1
 fastapi==0.110.0
-line-profiler==4.1.2
+line-profiler==5.0.0
 matplotlib==3.8.3
 memray==1.11.0
 numpy==1.26.4
