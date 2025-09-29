@@ -3,7 +3,7 @@ dask==2025.3.0
 faker==23.2.1
 fastapi==0.110.0
 line-profiler==4.1.2
-matplotlib==3.8.3
+matplotlib==3.9.4
 memray==1.11.0
 numpy==1.26.4
 openpyxl==3.1.2
